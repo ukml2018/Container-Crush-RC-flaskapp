@@ -1,6 +1,6 @@
 from flask import Flask,render_template, request, jsonify, redirect, flash, url_for
 import speech_recognition as sr
-from flask_mysqldb import MySQL
+#from flask_mysqldb import MySQL
 import pymysql
 import os
 import yaml
@@ -12,6 +12,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
 #app = Flask(__name__)
 application = Flask(__name__)
+application.set('port', 8082);
 GOOGLE_SPEECH_API_KEY = None
 #app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 application.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
