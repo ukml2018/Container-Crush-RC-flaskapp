@@ -1,13 +1,3 @@
-gcc
-libffi-dev
-linux-headers
-libc-dev
-mysql-client
-mariadb-dev
-libzmq
-zeromq-dev
-openssl-dev
-build-base
 APScheduler==3.5.3
 atomicwrites==1.2.1
 attrs==18.2.0
@@ -34,7 +24,6 @@ jsonschema==2.6.0
 jupyter-client==5.2.3
 jupyter-console==6.0.0
 jupyter-core==4.4.0
-jupyter==1.0.0
 kiwisolver==1.0.1
 more-itertools==4.3.0
 mysql-connector-python
@@ -63,7 +52,6 @@ flask_table
 Flask-WTF
 psycopg2-binary
 SpeechRecognition
-Flask-MySQLdb
 PyYAML
 werkzeug
 watson_developer_cloud
