@@ -12,7 +12,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
 #app = Flask(__name__)
 application = Flask(__name__)
-application.set('port', 8082);
+#application.set('port', 8082);
 GOOGLE_SPEECH_API_KEY = None
 #app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 application.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -331,4 +331,4 @@ def mic():
 
 
 if __name__ =='__main__':
-    application.run(debug = True, port=8082)
+    application.run(debug = True, host='0.0.0.0')
