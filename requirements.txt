@@ -1,3 +1,16 @@
+python3-dev
+pip3 install --upgrade pip
+gcc
+libffi-dev
+linux-headers
+libc-dev
+mysql-client
+mariadb-dev
+libzmq
+zeromq-dev
+openssl-dev
+build-base
+g++
 APScheduler==3.5.3
 atomicwrites==1.2.1
 attrs==18.2.0
