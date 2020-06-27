@@ -26,7 +26,7 @@ application.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 #-- Oracle cloud db
 dbServerName = "129.146.85.135"
 #dbServerName ="custom-mysql.gamification.svc.cluster.local"
-#dbServerName = "172.30.132.124"
+#dbServerName = "172.30.132.125"
 dbUser = "xxuser"
 dbPassword = "welcome1"
 dbName = "sampledb"
